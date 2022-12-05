@@ -30,6 +30,7 @@ public class MainEnergi {
 
     kinetic.setKineticEnergy(massa, kecepatanBenda);
 
-    System.out.print("Energi Kinetik: " + kinetic.getKineticEnergy());
+    System.out.print("Energi Kinetik: " + kinetic.getKineticEnergy() + " J");
+    System.out.println("");
   }
 }
