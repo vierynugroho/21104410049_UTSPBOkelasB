@@ -18,7 +18,7 @@ public class Kinetic {
     return kineticEnergy;
   }
 
-  public void setKineticEnergy(double massa, double velocity) {
-    this.kineticEnergy = comma5 * massa * (velocity * velocity);
+  public void setKineticEnergy(double massa, double kecepatanBenda) {
+    this.kineticEnergy = comma5 * massa * (kecepatanBenda * kecepatanBenda);
   }
 }

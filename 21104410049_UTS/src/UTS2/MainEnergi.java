@@ -15,7 +15,7 @@ public class MainEnergi {
 
   public static void main(String[] args) {
 
-    double massa, velocity = 0;
+    double massa, kecepatanBenda = 0;
 
     Kinetic kinetic = new Kinetic();
 
@@ -26,9 +26,9 @@ public class MainEnergi {
     System.out.print("Massa: ");
     massa = scanner.nextDouble();
     System.out.print("Velocity: ");
-    velocity = scanner.nextDouble();
+    kecepatanBenda = scanner.nextDouble();
 
-    kinetic.setKineticEnergy(massa, velocity);
+    kinetic.setKineticEnergy(massa, kecepatanBenda);
 
     System.out.print("Energi Kinetik: " + kinetic.getKineticEnergy());
   }
