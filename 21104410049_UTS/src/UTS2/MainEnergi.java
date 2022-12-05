@@ -25,7 +25,7 @@ public class MainEnergi {
     System.out.println("----------------------");
     System.out.print("Massa: ");
     massa = scanner.nextDouble();
-    System.out.print("Velocity: ");
+    System.out.print("Kecepatan Benda: ");
     kecepatanBenda = scanner.nextDouble();
 
     kinetic.setKineticEnergy(massa, kecepatanBenda);
